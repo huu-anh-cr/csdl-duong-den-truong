@@ -1,0 +1,22 @@
+QUY CHUẨN ĐỊNH DẠNG VÀ TẠO CÂU HỎI DÀNH CHO AI
+
+1. MỨC ĐỘ KHÓ:
+- Dễ: Ghi nhớ, nhận biết (định nghĩa, con số, sự kiện).
+- Trung bình: Thông hiểu, tóm tắt, diễn giải. Đáp án thường được paraphrase.
+- Khó: Vận dụng, phân tích, suy luận. Đáp án nhiễu tinh vi.
+
+2. VÍ DỤ MẪU ĐẦU RA BẮT BUỘC (CODE BLOCK + TAB-SEPARATED):
+- AI BẮT BUỘC phải bọc kết quả cuối cùng trong một khối mã (code block) dạng text để người dùng có thể bấm nút "Sao chép".
+- Dùng KÝ TỰ TAB để phân tách các cột. TUYỆT ĐỐI KHÔNG dùng Markdown Table (không dùng ký tự | ).
+- Đối với câu Điền từ: 3 cột đáp án sai cuối cùng bị bỏ trống, nhưng VẪN PHẢI GIỮ 3 DẤU TAB để chuẩn 7 cột khi dán.
+- Bắt đầu luôn bằng dòng dữ liệu đầu tiên, KHÔNG CÓ Header (Tiêu đề), KHÔNG CÓ cột STT.
+
+ĐỊNH DẠNG AI CẦN BẮT CHƯỚC Y HỆT NHƯ SAU:
+
+```text
+Trắc nghiệm	Dễ	Thủ đô của Việt Nam là gì?	Hà Nội	TP. Hồ Chí Minh	Đà Nẵng	Huế
+Điền từ	Dễ	Nước ta có ... tỉnh và thành phố trực thuộc trung ương.	63			
+Trắc nghiệm	Trung bình	Hiện tượng nhật thực xảy ra khi nào?	Mặt Trăng ở giữa	Trái Đất ở giữa	Mặt Trời ở giữa	Quỹ đạo chéo
+Điền từ	Trung bình	Độ pH của nước tinh khiết là ...	7			
+Trắc nghiệm	Khó	Nguyễn Du viết Truyện Kiều vào thế kỷ nào?	18-19	17-18	19-20	16-17
+Điền từ	Khó	Năm ..., Hai Bà Trưng khởi nghĩa.	40
